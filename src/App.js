@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import api from './api';
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
+import "./App.css"
 
 class App extends Component {
 
