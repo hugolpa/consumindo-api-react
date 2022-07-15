@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <div>
 
-        <h1 style={{ textAlign: 'center' }}>Listar os Filmes</h1>
+        <h1 style={{ textAlign: 'center' }}>List of movies (comsuming API by Hugo Leonardo)</h1>
 
         {filmes.map(filme => (
           <Container>
