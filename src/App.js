@@ -3,6 +3,7 @@ import api from './api';
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
 import "./App.css"
+import AxiosReactExample from './api2'
 
 class App extends Component {
 
@@ -47,6 +48,24 @@ class App extends Component {
 
 
         ))}
+
+        <div class="container">
+          <div class="row ">
+
+            <div class="col-lg-4 col-md-12">
+              <AxiosReactExample />
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <AxiosReactExample />
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <AxiosReactExample />
+            </div>
+
+          </div>
+        </div>
       </div>
     );
   };
